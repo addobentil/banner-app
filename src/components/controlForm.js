@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Banner from "./Banner";
-import "./styles/controlForm.css"; // Import the CSS file
+import "./styles/controlForm.css";
 
 const ControlForm = () => {
   const [bgColor, setBgColor] = useState("#ffffff");
