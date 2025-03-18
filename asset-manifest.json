@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/banner-app.git/static/css/main.f70a1f81.css",
-    "main.js": "/banner-app.git/static/js/main.80ce5283.js",
-    "static/media/logo.svg": "/banner-app.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/banner-app.git/index.html",
-    "main.f70a1f81.css.map": "/banner-app.git/static/css/main.f70a1f81.css.map",
-    "main.80ce5283.js.map": "/banner-app.git/static/js/main.80ce5283.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.f70a1f81.css",
-    "static/js/main.80ce5283.js"
-  ]
+    "main.css": "/banner-app/static/css/main.481dc228.chunk.css",
+    "main.js": "/banner-app/static/js/main.0ce4647d.chunk.js",
+    "main.js.map": "/banner-app/static/js/main.0ce4647d.chunk.js.map",
+    "runtime~main.js": "/banner-app/static/js/runtime~main.c935319d.js",
+    "runtime~main.js.map": "/banner-app/static/js/runtime~main.c935319d.js.map",
+    "static/js/2.ae026ab9.chunk.js": "/banner-app/static/js/2.ae026ab9.chunk.js",
+    "static/js/2.ae026ab9.chunk.js.map": "/banner-app/static/js/2.ae026ab9.chunk.js.map",
+    "index.html": "/banner-app/index.html",
+    "precache-manifest.1434dceee5e70340822e933899d15807.js": "/banner-app/precache-manifest.1434dceee5e70340822e933899d15807.js",
+    "service-worker.js": "/banner-app/service-worker.js",
+    "static/css/main.481dc228.chunk.css.map": "/banner-app/static/css/main.481dc228.chunk.css.map"
+  }
 }
