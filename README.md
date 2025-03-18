@@ -11,7 +11,7 @@
 
 ## 🎥 **Demo**
 
-🚀 Check out the live version [(https://addobentil.github.io/banner)](#).
+🚀 Check out the live version [(https://addobentil.github.io/banner-app)](#).
 
 ## 🛠 **Tech Stack**
 
@@ -91,7 +91,3 @@ git push origin feature-name
 ```
 
 5️⃣ **Submit a pull request** 🚀
-
----
-
-Let me know if you want any modifications! 🚀

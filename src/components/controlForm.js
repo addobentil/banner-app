@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Banner from "./Banner";
-import "./styles/controlForm.css"; // Import the CSS file
+import "./styles/controlForm.css";
 
 const ControlForm = () => {
   const [bgColor, setBgColor] = useState("#ffffff");
@@ -14,7 +14,7 @@ const ControlForm = () => {
         <h2 style={{marginBottom: '25px'}}>Interactive Banner Design</h2>
 
         {/* Background Color */}
-        <div className="form-gro">
+        <div className="form-group">
           <label>Background Color:</label>
           <input style={{height: '50px', cursor: 'pointer'}}
             type="color"

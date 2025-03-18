@@ -1,3 +1,5 @@
+import React from "react";
+
 const Banner = ({ bgColor, textColor, bannerText, image }) => {
   return (
     <div
