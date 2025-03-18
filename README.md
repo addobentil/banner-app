@@ -11,7 +11,7 @@
 
 ## 🎥 **Demo**
 
-🚀 Check out the live version [(https://addobentil.github.io/banner)](#).
+🚀 Check out the live version [(https://addobentil.github.io/banner-app.git)](#).
 
 ## 🛠 **Tech Stack**
 
