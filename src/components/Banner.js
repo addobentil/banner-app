@@ -1,6 +1,6 @@
 import React from "react";
 
-const Banner = ({ bgColor, textColor, bannerText, image }) => {
+const Banner = ({ bgColor, textColor, bannerText, image, description }) => {
   return (
     <div
       className="banner"
@@ -10,17 +10,20 @@ const Banner = ({ bgColor, textColor, bannerText, image }) => {
         color: textColor,
         backgroundImage: image ? `url(${image})` : "none",
         backgroundSize: "cover",
-        backgroundPosition: "center",
+        backgroundPosition: "center center",
+        backgroundRepeat: "no-repeat",
         width: "100%",
         padding: "3rem",
         textAlign: "center",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        minHeight: "180px",
+        minHeight: "350px",
+        margin: "0 auto",
+        boxSizing: "border-box"
       }}
     >
-      {/* Dark Overlay for better text visibility */}
+      {/* Dark Overlay */}
       {image && (
         <div
           style={{
@@ -34,8 +37,25 @@ const Banner = ({ bgColor, textColor, bannerText, image }) => {
         />
       )}
 
-      {/* Text should be above the overlay */}
-      <h1 style={{ position: "relative", zIndex: 1 }}>{bannerText}</h1>
+      {/* Centered Content */}
+      <div style={{
+        position: "relative",
+        zIndex: 1,
+        maxWidth: "100%",
+        margin: "0 auto",
+      }}>
+         <h1 style={{ marginBottom: "10px" }}>{bannerText}</h1>
+        <p style={{ fontSize: "1rem", 
+            opacity: "0.8", 
+            lineHeight: 1.6,
+            margin: "0 auto",
+            maxWidth: "90%",
+            wordWrap: "break-word",
+            overflowWrap: "break-word"
+            }}>
+          {description}
+        </p>
+      </div>
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import ControlForm from './components/controlForm'
+import ControlForm from './components/ControlForm'
 import './App.css';
 
 function App() {

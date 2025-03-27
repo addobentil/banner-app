@@ -66,28 +66,3 @@ This will start the app on **`http://localhost:3000/`**
 2️⃣ Enter custom **banner text**.  
 3️⃣ Upload a **background image** (optional).  
 4️⃣ **Preview** the banner in real-time.
-
-## 🤝 **Contributing**
-
-Want to improve this project? Contributions are welcome!
-
-1️⃣ **Fork** the repository.  
-2️⃣ **Create a feature branch:**
-
-```bash
-git checkout -b feature-name
-```
-
-3️⃣ **Make changes and commit:**
-
-```bash
-git commit -m "Added a new feature"
-```
-
-4️⃣ **Push to your branch:**
-
-```bash
-git push origin feature-name
-```
-
-5️⃣ **Submit a pull request** 🚀

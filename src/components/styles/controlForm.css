@@ -1,50 +1,93 @@
-/* Overall container styling */
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background-color: #f8f9fa;
-    padding: 20px;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  /* padding: 20px; */
+  width: 100%;
+  min-height: 100vh;
   }
   
   /* Form container styling */
   .form-container {
     background: white;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 400px;
+    /* width: 100%; */
     text-align: center;
-  }
-  
-  /* Form elements */
-  .form-group {
+    margin: 20px 0;
     display: flex;
     flex-direction: column;
+    gap: 10px; 
     align-items: center;
-    margin-bottom: 15px;
+    justify-content: center;
+  }
+
+  .form-group{
+    width: 100%;
+    text-align: start;
+  }
+
+  .form-color{
+    padding: 0 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .form-input{
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* gap: 10px; */
   }
   
   .form-group label {
     font-weight: 500;
+    font-size: 13px;
     margin-bottom: 5px;
   }
   
-  .form-group input[type="color"],
-  .form-group input[type="text"],
-  .form-group input[type="file"] {
-    width: 80%;
+  .form-group input[type="color"]
+  /* .form-group input[type="text"], */
+   {
+    width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 5px;
   }
+
+  .form-group input[type="file"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .form-group input[type="text"],
+  .form-group textarea {
+    width: 100% !important;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 2px solid #fcc2c2;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.form-group input[type="text"]:focus,
+  .form-group textarea:focus {
+    outline: none;
+  }
   
   /* Banner preview section */
   .banner-preview {
-    margin-top: 20px;
     width: 100%;
-    max-width: 800px;
+    height: 100%;
   }
   

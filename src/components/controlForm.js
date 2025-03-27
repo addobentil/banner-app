@@ -6,16 +6,34 @@ const ControlForm = () => {
   const [bgColor, setBgColor] = useState("#ffffff");
   const [textColor, setTextColor] = useState("#000000");
   const [bannerText, setBannerText] = useState("I love Open Source!");
+  const [description, setDescription] = useState("")
   const [image, setImage] = useState("");
 
   return (
     <div className="container">
+      {/* <h2 style={{ 
+      margin: "5px",
+      color: "goldenrod",
+      alignSelf: "flex-start",
+      fontWeight: "450"
+      }}>
+        Interactive Banner Design
+        </h2> */}
+       {/* Banner Preview */}
+       <div className="banner-preview" style={{width: "100%"}}>
+        <Banner
+          bgColor={bgColor}
+          textColor={textColor}
+          bannerText={bannerText}
+          description={description}
+          image={image}
+        />
+      </div>
       <div className="form-container">
-        <h2 style={{marginBottom: '25px'}}>Interactive Banner Design</h2>
-
-        {/* Background Color */}
+        <div className="form-color">
+           {/* Background Color */}
         <div className="form-group">
-          <label>Background Color:</label>
+          <label style={{alignSelf: "flex-start"}}>Background Color</label>
           <input style={{height: '50px', cursor: 'pointer'}}
             type="color"
             value={bgColor}
@@ -25,7 +43,7 @@ const ControlForm = () => {
 
         {/* Text Color */}
         <div className="form-group">
-          <label>Text Color:</label>
+          <label>Text Color</label>
           <input style={{height: '50px', cursor: 'pointer'}}
             type="color"
             value={textColor}
@@ -33,20 +51,10 @@ const ControlForm = () => {
           />
         </div>
 
-        {/* Banner Text */}
-        <div className="form-group">
-          <label>Banner Text:</label>
-          <input
-            type="text"
-            value={bannerText}
-            onChange={(e) => setBannerText(e.target.value)}
-          />
-        </div>
-
         {/* Background Image Upload */}
         <div className="form-group">
-          <label>Background Image:</label>
-          <input
+          <label>Background Image</label>
+          <input style={{height: '50px'}}
             type="file"
             accept="image/*"
             onChange={(e) => {
@@ -55,17 +63,32 @@ const ControlForm = () => {
             }}
           />
         </div>
+        </div>
+
+        <div className="form-input">
+          {/* Banner Text */}
+        <div className="form-group">
+          <label>Banner Title</label>
+          <input className="form-title"
+            type="text"
+            value={bannerText}
+            onChange={(e) => setBannerText(e.target.value)}
+          />
+        </div>
+
+        {/* Banner Text Description*/}
+        <div className="form-group">
+          <label>Banner Description</label>
+          <textarea 
+            value={description}
+            onChange={(e) => setDescription(e.target.value)}
+            rows="3"
+            placeholder="Enter banner description here..."
+          />
+        </div>
+        </div>
       </div>
 
-      {/* Banner Preview */}
-      <div className="banner-preview">
-        <Banner
-          bgColor={bgColor}
-          textColor={textColor}
-          bannerText={bannerText}
-          image={image}
-        />
-      </div>
     </div>
   );
 };
