@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/banner-app/static/css/main.481dc228.chunk.css",
-    "main.js": "/banner-app/static/js/main.0ce4647d.chunk.js",
-    "main.js.map": "/banner-app/static/js/main.0ce4647d.chunk.js.map",
+    "main.css": "/banner-app/static/css/main.ec082307.chunk.css",
+    "main.js": "/banner-app/static/js/main.dbc4dbbb.chunk.js",
+    "main.js.map": "/banner-app/static/js/main.dbc4dbbb.chunk.js.map",
     "runtime~main.js": "/banner-app/static/js/runtime~main.c935319d.js",
     "runtime~main.js.map": "/banner-app/static/js/runtime~main.c935319d.js.map",
     "static/js/2.ae026ab9.chunk.js": "/banner-app/static/js/2.ae026ab9.chunk.js",
     "static/js/2.ae026ab9.chunk.js.map": "/banner-app/static/js/2.ae026ab9.chunk.js.map",
     "index.html": "/banner-app/index.html",
-    "precache-manifest.1434dceee5e70340822e933899d15807.js": "/banner-app/precache-manifest.1434dceee5e70340822e933899d15807.js",
+    "precache-manifest.be830c613b02473d795472a63afcdb63.js": "/banner-app/precache-manifest.be830c613b02473d795472a63afcdb63.js",
     "service-worker.js": "/banner-app/service-worker.js",
-    "static/css/main.481dc228.chunk.css.map": "/banner-app/static/css/main.481dc228.chunk.css.map"
+    "static/css/main.ec082307.chunk.css.map": "/banner-app/static/css/main.ec082307.chunk.css.map"
   }
 }
